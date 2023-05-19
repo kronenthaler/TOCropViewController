@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.license  =  { :type => 'MIT', :file => 'LICENSE' }
   s.summary  = 'A Swift view controller that enables cropping and rotating of UIImage objects.'
   s.homepage = 'https://github.com/TimOliver/TOCropViewController'
-  s.authors  = ['Tim Oliver']
+  s.authors  = {'Tim Oliver'=> 'me@email.com'}
   s.source   = { :git => 'https://github.com/TimOliver/TOCropViewController.git', :tag => s.version }
   s.platform = :ios, '8.0'
   s.source_files = 'Swift/CropViewController/**/*.{h,swift}', 'Objective-C/TOCropViewController/**/*.{h,m}'
